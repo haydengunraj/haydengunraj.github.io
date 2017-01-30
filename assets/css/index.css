@@ -36,7 +36,7 @@ a:hover {
 }
 
 h1, h2, p {
-	font-family: "Cabin";
+	font-family: "Cabin", sans-serif;
 }
 
 h1 {
