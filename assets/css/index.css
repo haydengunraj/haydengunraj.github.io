@@ -1,7 +1,4 @@
-@font-face {
-	font-family: Cabin;
-	src: url("http://fonts.googleapis.com/css?family=Cabin");
-}
+@import url("http://fonts.googleapis.com/css?family=Cabin");
 
 html, body {
     width: 100%;
@@ -39,7 +36,7 @@ a:hover {
 }
 
 h1, h2, p {
-	font-family: Cabin;
+	font-family: "Cabin";
 }
 
 h1 {
