@@ -6,6 +6,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+	font-family: "Cabin", sans-serif;
 }
 
 header {
@@ -33,10 +34,6 @@ a:visited {
 a:hover {
 	text-decoration: none;
 	color: #fb6a00;
-}
-
-h1, h2, p {
-	font-family: "Cabin", sans-serif;
 }
 
 h1 {
