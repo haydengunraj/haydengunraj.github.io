@@ -10,7 +10,7 @@ html, body {
 }
 
 header {
-	background: url("../img/dboat.jpg") no-repeat;
+	background: url("../img/header.jpg") no-repeat;
 	background-attachment: relative;
 	background-position: center center;
 	background-size: cover;
