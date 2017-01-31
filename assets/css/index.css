@@ -10,9 +10,9 @@ html, body {
 }
 
 header {
-	background: url("../img/header.jpg") no-repeat;
+	background: url("../img/dboat.jpg") no-repeat;
 	background-attachment: relative;
-	background-position: center 35%;
+	background-position: center center;
 	background-size: cover;
 	height: 500px;
 }
@@ -33,7 +33,7 @@ a:visited {
 
 a:hover {
 	text-decoration: none;
-	color: #fb6a00;
+	color: red;
 }
 
 h1 {
