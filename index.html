@@ -14,79 +14,132 @@
 	<link href="assets/css/index.css" rel="stylesheet">
 </head>
 <body style="font-family: Cabin;">
-	<header></header>
-	<div class="container">
-		<div id="work">
-			<h1>My work.</h1>
+	<header>
+		<div class="topnav">
+			<span type="testtype">Hayden Gunraj</span>
+	  		<a href="#about">About</a>
+	  	  	<a href="#projects">Projects</a>
+	  	  	<a href="#experience">Experience</a>
+	  	  	<a href="#contact">Contact</a>
+		</div>
+	</header>
+	<div class="container" id="about">
+		<div class="gsection">
+			<h1>Hi, I'm Hayden.</h1>
+			<div class="row" style="margin: 0 100px 0 100px; float: middle; display: inline-block;">
+				<p>I'm a Mechatronics Engineering student at the University of Waterloo, with a keen interest in medical imaging and image processing. When I'm not busy with school or work, I like to paddle, ski, and work on personal projects.</p>
+			</div>
+			<div class="row">
+				<div class="icolink">
+					<a href="https://github.com/haydengunraj/">
+						<i class="fa fa-github"></i>
+					</a>
+				</div>
+				<div class="icolink">
+					<a href="https://linkedin.com/in/haydengunraj">
+						<i class="fa fa-linkedin"></i>
+					</a>
+				</div>
+				<div class="icolink">
+					<a href="https://instagram.com/haydengunraj/">
+						<i class="fa fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="projects">
+		<div class="wsection">
+			<h1>Projects</h1>
+			<div class="row">
+				<div class="col-md-5">
+					<img src="assets/img/volexp.png">
+				</div>
+				<div class="col-md-7">
+					<h2>Optical Tomography</h2>
+					<h3>Python</h3>
+					<p>A rough attempt at optical tomography. Essentially, images acquired via light transmitted through a transparent or translucent medium are reconstructed into a 3D volume. Using an iPhone camera and a lamp, I was able to reconstruct 3D volumes of a layered phantom and recombine colour channel reconstructions into a single RGB volume.</p>
+					<p><a href="https://github.com/haydengunraj/optical_tomography">View source <i class="fa fa-github"></i></a></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5">
+					<img src="assets/img/orbit.gif">
+				</div>
+				<div class="col-md-7">
+					<h2>Simple 3D Graphics</h2>
+					<h3>Python</h3>
+					<p>In an attempt to get a better understanding of how 3D graphics work, this project implements a (very) simple graphics engine using Python 3 with Numpy and Pygame. While it isn't suitable for anything even remotely intensive, it's a neat little tool for manipulating simple objects.</p>
+					<p><a href="https://github.com/haydengunraj/simple_3d_graphics">View source <i class="fa fa-github"></i></a></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5">
+					<img src="assets/img/circuit.png">
+				</div>
+				<div class="col-md-7">
+					<h2>Logic Circuit Simulator</h2>
+					<h3>Python</h3>
+					<p>Stemming from my coursework in data structures, algorithms, and digital logic, I created a basic logic circuit simulator. The backend of the simulator uses a graph-like structure to keep track of logic gates and their connections. The circuit is simulated by starting from the outputs and recursing backwards to the inputs. On the user-facing side, a graphical interface operates via drag-and-drop placement of logic gates and wires. Output is provided in the form of a truth table for the circuit.</p>
+					<p><a href="https://github.com/haydengunraj/LogicSim">View source <i class="fa fa-github"></i></a></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5">
+					<img src="assets/img/tracking.gif">
+				</div>
+				<div class="col-md-7">
+					<h2>Motion Analysis</h2>
+					<h3>Python</h3>
+					<p>Developed a toolset for the tracking and kinematics analysis of objects in videos. The tracker allows for a user to define a coordinate system and scale via a graphical interface with drag-and-drop commands, and subsequently position, velocity, and acceleration can be computed and displayed graphically in true spatial coordinates.</p>
+					<p><a href="https://github.com/haydengunraj/MotionTracker">View source <i class="fa fa-github"></i></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="experience">
+		<div class="gsection">
+			<h1>Experience</h1>
+			<div class="row" style="margin: 0 100px 0 100px; float: middle; display: inline-block;">
+				<p>For full details, download a copy of my resume <a href="assets/files/resume.pdf">here</a>.</p>
+			</div>
 			<div class="row">
 				<div class="col-md-4">
-					<div class="icolink1">
-						<a href="http://haydengunraj.me/projects">
-							<i class="fa fa-folder-open" style="font-size: 80px"></i>
-							<h2>Projects</h2>
-						</a>
+					<div class="icolink" style="float: right; color:rgb(165, 0, 0)">
+						<i class="fa fa-image"></i>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="icolink2">
-						<a href="https://github.com/haydengunraj/">
-							<i class="fa fa-github" style="font-size: 80px"></i>
-							<h2>haydengunraj</h2>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="icolink3">
-						<a href="/static/files/resume.pdf">
-							<i class="fa fa-briefcase" style="font-size: 80px"></i>
-							<h2>Resume</h2>
-						</a>
-					</div>
+				<div class="col-md-8">
+					<h2>Industrial Imaging Software Developer</h2>
+					<h3>P&P Optica, September 2018 - December 2018</h3>
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div id="skills">
-			<h1>My skills.</h1>
 			<div class="row">
-				<div class="col-md-3">
-					<img src="assets/img/python.png" style="height: 80px"></i>
+				<div class="col-md-4">
+					<div class="icolink" style="float: right; color:rgb(165, 0, 0)">
+						<i class="fa fa-heartbeat"></i>
+					</div>
 				</div>
-				<div class="col-md-3">
-					<i class="icon-cplusplus" style="font-size: 80px"></i>
-				</div>
-				<div class="col-md-3">
-					<i class="icon-c" style="font-size: 80px"></i>
-				</div>
-				<div class="col-md-3">
-					<img src="assets/img/opencv.png" style="height: 80px"></i>
+				<div class="col-md-8">
+					<h2>Medical Software Developer</h2>
+					<h3>Sunnybrook Research Institute, January 2018 - April 2018</h3>
 				</div>
 			</div>
-			<div class="row" style="padding-top: 20px">
-				<div class="col-md-3">
-					<img src="assets/img/flask.png" style="height: 80px"></i>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="icolink" style="float: right; color:rgb(165, 0, 0)">
+						<i class="fa fa-university"></i>
+					</div>
 				</div>
-				<div class="col-md-3">
-					<img src="assets/img/matplotlib.png" style="height: 80px"></i>
-				</div>
-				<div class="col-md-3">
-					<img src="assets/img/solidworks.png" style="height: 80px"></i>
-				</div>
-				<div class="col-md-3">
-					<img src="assets/img/autocad.png" style="height: 80px"></i>
+				<div class="col-md-8">
+					<h2>Technical Systems Analyst</h2>
+					<h3>CIBC, May 2017 - August 2017</h3>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="container">
-		<div id="education">
-			<h1>University of Waterloo</h1>
-			<p>B.ASc. Mechatronics Engineering, Class of 2021</p>
-		</div>
-	</div>
-	<div class="container">
-		<div id="contact">
+	<div class="container" id="contact">
+		<div class="wsection">
 			<h1>Contact me.</h1>
 			<div class="row">
 				<div class="col-md-6">
@@ -94,12 +147,10 @@
 					<p>+1 (289) 926-0789</p>
 				</div>
 				<div class="col-md-6">
-					<div class="icolink4">
-						<a href="mailto:hayden.gunraj@uwaterloo.ca">
-							<i class="fa fa-envelope" style="font-size: 80px"></i>
-							<p>hayden.gunraj@uwaterloo.ca</p>
-						</a>
-					</div>
+					<a href="mailto:hayden.gunraj@uwaterloo.ca">
+						<i class="fa fa-envelope" style="font-size: 80px"></i>
+						<p>hayden.gunraj@uwaterloo.ca</p>
+					</a>
 				</div>
 			</div>
 		</div>
