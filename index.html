@@ -12,6 +12,20 @@
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
 	<link href="assets/css/font-mfizz.css" rel="stylesheet">
 	<link href="assets/css/index.css" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		  $('a[href*="#"]').on('click', function(event) {
+		    if (this.hash !== "") {
+		      event.preventDefault();
+		      $('html, body').stop().animate({
+		        scrollTop: $(this.hash).offset().top + $('body').scrollTop() - 75
+		      }, 800);
+		    }
+		  });
+		});
+	</script>
 </head>
 <body style="font-family: Cabin;">
 	<header>
